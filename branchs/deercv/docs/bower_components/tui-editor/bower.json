@@ -1,0 +1,45 @@
+{
+  "name": "tui-editor",
+  "description": "private",
+  "authors": [
+    {
+      "name": "Sungho Kim",
+      "email": "shirenbeat@gmail.com"
+    }
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "main": [
+    "dist/tui-editor.js",
+    "dist/tui-editor.min.js",
+    "dist/tui-editor.css",
+    "dist/tui-editor-contents.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "tui-code-snippet": "1.2.5",
+    "codemirror": "^5.25.0",
+    "highlightjs": "^9.10.0",
+    "jquery": "~2.1.4",
+    "markdown-it": "^8.3.1",
+    "toMark": "https://github.com/nhnent/toMark.git#0.0.18",
+    "tui-component-colorpicker": "~1.0.2",
+    "squire-rte": "kyuwoo-choi/Squire#tui-editor-release",
+    "plantuml-encoder": "^1.2.4",
+    "tui-chart": "^2.9.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.4",
+    "tui-code-snippet": "1.2.5"
+  }
+}

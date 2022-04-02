@@ -1,0 +1,57 @@
+{
+  "name": "tui-editor",
+  "description": "private",
+  "authors": [
+    {
+      "name": "Sungho Kim",
+      "email": "shirenbeat@gmail.com"
+    }
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "main": [
+    "dist/tui-editor.js",
+    "dist/tui-editor.min.js",
+    "dist/tui-editor.css",
+    "dist/tui-editor-contents.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "tui-code-snippet": "1.2.5",
+    "codemirror": "^5.25.0",
+    "highlightjs": "^9.10.0",
+    "jquery": "~2.1.4",
+    "markdown-it": "^8.3.1",
+    "toMark": "https://github.com/nhnent/toMark.git#0.0.18",
+    "tui-component-colorpicker": "~1.0.2",
+    "squire-rte": "kyuwoo-choi/Squire#tui-editor-release",
+    "plantuml-encoder": "^1.2.4",
+    "tui-chart": "^2.9.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.4",
+    "tui-code-snippet": "1.2.5"
+  },
+  "homepage": "https://github.com/nhnent/tui.editor",
+  "version": "0.14.0",
+  "_release": "0.14.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.14.0",
+    "commit": "6f33d221270197a2f0ddbcfea771dbdb24d85a10"
+  },
+  "_source": "https://github.com/nhnent/tui.editor.git",
+  "_target": "^0.14.0",
+  "_originalSource": "https://github.com/nhnent/tui.editor.git",
+  "_direct": true
+}
