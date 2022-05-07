@@ -7,7 +7,7 @@ const isDev = import.meta.env.DEV
 
 export const GITHUB_CLIENT_ID = isDev
   ? '6c3876cacce17b985c85'
-  : '1bab8338449584e95414'
+  : '2d8710535ba1e59cea6e'
 
 export const GITEE_CLIENT_ID = isDev
   ? 'aa5a2788213b2765a4e0262b3316b3851a0a15e8cca22167ddc0daadfab42001'
