@@ -17,7 +17,8 @@ export const GITEE_CLIENT_SECRET = isDev
   ? 'e051ed02fc6c8484ef640b0bb0ec1fea16d4f4ee5115436f46496b030302db8b'
   : 'df569a930d8c02831aad7b978d5245148c0557581c292c5f376307d708494b6d'
 
-export const REDIRECT_URI = `${window.location.origin}/oauth/redirect`
+// export const REDIRECT_URI = `${window.location.origin}/oauth/redirect`
+export const REDIRECT_URI = `${window.location.origin}/public/branchs/picture-warehouse/oauth/redirect`
 
 export const GITHUB_AUTH_URL = `https://github.com/login/oauth/authorize?response_type=code&redirect_uri=${REDIRECT_URI}&client_id=${GITHUB_CLIENT_ID}&scope=public_repo%20read:user`
 
